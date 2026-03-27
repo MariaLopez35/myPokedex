@@ -57,6 +57,65 @@ function Filters() {
   );
 }
 
+function Card() {
+  return (
+    <section className="section-card">
+      <div className="filters">
+        <span>Lista de Pokemon</span>
+      </div>
+
+      <div className="card electric">
+        <div className="card-header">
+          <span className="id">#25</span>
+          <span className="name">Pikachu</span>
+        </div>
+
+        <div className="card-image">
+          <img src="pikachu.png" alt="Pikachu" />
+        </div>
+        <button className="card-btn">Ver detalles</button>
+      </div>
+
+      <div className="card fire">
+        <div className="card-header">
+          <span className="id">#4</span>
+          <span className="name">Charmander</span>
+        </div>
+
+        <div className="card-image">
+          <img src="charmander.png" alt="Charmander" />
+        </div>
+        <button className="card-btn">Ver detalles</button>
+      </div>
+
+      <div className="card water">
+        <div className="card-header">
+          <span className="id">#7</span>
+          <span className="name">Squirtle</span>
+        </div>
+
+        <div className="card-image">
+          <img src="squirtle.png" alt="Squirtle" />
+        </div>
+        <button className="card-btn">Ver detalles</button>
+      </div>
+
+      <div className="card plant">
+        <div className="card-header">
+          <span className="id">#1</span>
+          <span className="name">Bulbasaur</span>
+        </div>
+
+        <div className="card-image">
+          <img src="bulbasaur.png" alt="Bulbasaur" />
+        </div>
+
+        <button className="card-btn">Ver detalles</button>
+      </div>
+    </section>
+  );
+}
+
 function App() {
   return (
     <>
@@ -64,6 +123,7 @@ function App() {
       <section className="main">
         <SearchBar />
         <Filters />
+        <Card />
       </section>
     </>
   );
