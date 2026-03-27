@@ -1,6 +1,5 @@
-import './App.css'
+import "./App.css";
 import logo from "/logo.png";
-
 
 function Header() {
   return (
@@ -12,14 +11,31 @@ function Header() {
   );
 }
 
-function App() {
-
-
+function SearchBar() {
   return (
-    <>
-     <Header />
-    </>
-  )
+    <section className="section-search">
+      <div className="input-search">
+        <input
+          className="input"
+          type="text"
+          name="search"
+          placeholder="Buscar Pokémon..."
+        />
+        <button className="search-button">Buscar</button>
+      </div>
+    </section>
+  );
 }
 
-export default App
+function App() {
+  return (
+    <>
+      <Header />
+      <section className="main">
+        <SearchBar />
+      </section>
+    </>
+  );
+}
+
+export default App;
