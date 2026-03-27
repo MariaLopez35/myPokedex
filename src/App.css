@@ -265,19 +265,19 @@
   background: linear-gradient(to bottom, #4facfe, #005ecb);
 }
 
-.card.plant {
+.card.grass {
   background: linear-gradient(to bottom, #f3fff3, #d4f5d4);
 }
 
-.card.plant .card-header {
+.card.grass .card-header {
   background: linear-gradient(to right, #5bbf5b, #2e8b2e);
 }
 
-.card.plant .card-image {
+.card.grass .card-image {
   background: linear-gradient(to bottom, #e4ffe4, #baf0ba);
 }
 
-.card.plant .card-btn {
+.card.grass .card-btn {
   background: linear-gradient(to bottom, #5bbf5b, #2e8b2e);
 }
 
@@ -297,4 +297,36 @@
 
 .card.electric .card-btn {
   background: linear-gradient(to bottom, #ffd000, #cc9900);
+}
+
+.card.bug {
+  background: linear-gradient(to bottom, #f6ffe6, #d4f5a1);
+}
+
+.card.bug .card-header {
+  background: linear-gradient(to right, #a8e063, #56ab2f);
+}
+
+.card.bug .card-image {
+  background: linear-gradient(to bottom, #ecffd1, #c4e87c);
+}
+
+.card.bug .card-btn {
+  background: linear-gradient(to bottom, #a8e063, #3d8b1f);
+}
+
+.card.flying {
+  background: linear-gradient(to bottom, #f2f7ff, #cfe0ff);
+}
+
+.card.flying .card-header {
+  background: linear-gradient(to right, #89a6ff, #5c7cfa);
+}
+
+.card.flying .card-image {
+  background: linear-gradient(to bottom, #e4edff, #b8ccff);
+}
+
+.card.flying .card-btn {
+  background: linear-gradient(to bottom, #89a6ff, #3b5bdb);
 }
