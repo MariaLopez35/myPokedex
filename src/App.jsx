@@ -27,12 +27,43 @@ function SearchBar() {
   );
 }
 
+function Filters() {
+  return (
+    <section className="section-filters">
+      <div className="filters">
+        <span>Filtrar por Tipo</span>
+      </div>
+      <div className="all-buttons">
+        <div>
+          <button className="filter-btn filter-btn--all">Todos</button>
+        </div>
+        <div>
+          <button className="filter-btn filter-btn--fire">Fuego</button>
+        </div>
+        <div>
+          <button className="filter-btn filter-btn--water">Agua</button>
+        </div>
+        <div>
+          <button className="filter-btn filter-btn--plant">Planta</button>
+        </div>
+        <div>
+          <button className="filter-btn filter-btn--electric">Eléctrico</button>
+        </div>
+        <div>
+          <button className="filter-btn filter-btn--other">Otros</button>
+        </div>
+      </div>
+    </section>
+  );
+}
+
 function App() {
   return (
     <>
       <Header />
       <section className="main">
         <SearchBar />
+        <Filters />
       </section>
     </>
   );

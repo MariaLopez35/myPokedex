@@ -77,3 +77,86 @@
   color: #fff;
   font-weight: bold;
 }
+
+
+/*    FILTERS      */
+
+.section-filters {
+  margin-top: 50px;
+}
+
+.filters {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  margin: 0 auto;
+  color: #053b86;
+  font-size: 20px;
+  font-family: "Fredoka", sans-serif;
+  font-weight: bold;
+}
+
+.filters::before {
+  content: "";
+  width: 80px;
+  border-bottom: 2px solid #053b86;
+  margin-right: 10px;
+}
+
+.filters::after {
+  content: "";
+  flex: 1;
+  border-bottom: 2px solid #053b86;
+  margin-left: 10px;
+}
+
+.all-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 20px;
+}
+
+.filter-btn {
+  width: 120px;
+  height: 35px;
+  border: none;
+  border-radius: 25px;
+  font-size: 20px;
+  font-family: "Fredoka", sans-serif;
+  font-weight: bold;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  cursor: pointer;
+}
+
+.filter-btn--all {
+  background: #fff;
+  color: #053b86;
+}
+
+.filter-btn--fire {
+  background: #d5251e;
+}
+
+.filter-btn--water {
+  background: #0177f0;
+}
+
+.filter-btn--plant {
+  background: #48a249;
+}
+
+.filter-btn--electric {
+  background: #fec511;
+}
+
+.filter-btn--other {
+  background: #4181cc;
+}
