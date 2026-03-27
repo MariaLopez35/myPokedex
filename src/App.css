@@ -1,42 +1,26 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+/*     HEADER      */
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 112px;
+  border-bottom: 4px solid #fff;
+  overflow: visible;
+
+  background:
+    radial-gradient(circle, rgba(255, 255, 255, 0.25) 3px, transparent 4px) 5px
+      10px / 42px 42px,
+    radial-gradient(circle, rgba(255, 255, 255, 0.18) 2px, transparent 3px) 25px
+      20px / 55px 55px,
+    radial-gradient(circle, rgba(255, 255, 255, 0.12) 2px, transparent 3px) 15px
+      35px / 48px 48px,
+    radial-gradient(circle, rgba(255, 255, 255, 0.1) 1.5px, transparent 2px)
+      30px 5px / 60px 60px,
+    linear-gradient(to top, #005ecb, #2f9bff);
 }
 
 .logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+  width: 300px;
+  transform: translateY(28px);
 }
